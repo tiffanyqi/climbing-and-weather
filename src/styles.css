@@ -1,0 +1,63 @@
+body {
+  font-family: "Slabo 27px", serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #007cbf;
+}
+
+.root {
+  padding: 0;
+}
+
+.placeholder {
+  height: 50vh;
+}
+
+.container {
+  margin: 20px;
+  height: 50%;
+}
+
+.title {
+  font-size: 40px;
+  text-align: center;
+}
+
+.weather-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hour-weather-cards-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hour-weather-cards-title {
+  font-size: 22px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.hour-weather-cards {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1081px;
+}
+
+.loading-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: center;
+  margin: auto;
+}

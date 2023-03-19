@@ -1,0 +1,19 @@
+@use "../../theme/colors" as colors;
+@use "../../theme/common" as common;
+@use "../../theme/typography" as typography;
+
+.tooltip {
+  border: 1px solid colors.$jelly-bean100;
+  border-radius: common.$base-border-radius * 4;
+  border-top-left-radius: 0%;
+  background: colors.$jelly-bean20;
+  @include typography.body-small;
+  max-width: 250px;
+  padding: common.$base-spacing;
+  position: absolute;
+}
+
+.name {
+  @include typography.body-medium;
+  margin-bottom: common.$base-spacing;
+}

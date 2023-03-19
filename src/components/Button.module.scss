@@ -1,0 +1,17 @@
+@use "../theme/colors" as colors;
+@use "../theme/common" as common;
+
+.btn {
+  background-color: colors.$jelly-bean100;
+  border: none;
+  border-radius: common.$base-border-radius;
+  color: colors.$white;
+  font-family: inherit;
+  margin: common.$base-spacing / 2;
+  padding: common.$base-spacing;
+
+  &:hover {
+    background-color: colors.$jelly-bean50;
+    cursor: pointer;
+  }
+}

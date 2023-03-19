@@ -1,0 +1,16 @@
+@use "../theme/colors" as colors;
+@use "../theme/common" as common;
+@use "../theme/typography" as typography;
+
+.container {
+  background-color: colors.$jelly-bean20;
+  border: 1px solid colors.$jelly-bean100;
+  border-radius: common.$base-border-radius;
+  margin: common.$base-spacing;
+  padding: common.$base-spacing;
+  text-align: center;
+}
+
+.title {
+  @include typography.body-medium;
+}

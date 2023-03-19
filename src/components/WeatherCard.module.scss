@@ -1,0 +1,48 @@
+@use "../theme/colors" as colors;
+@use "../theme/common" as common;
+@use "../theme/typography" as typography;
+
+.container {
+  background-color: #e6f0ee;
+  border: 1px solid #40798c;
+  border-radius: common.$base-border-radius;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: common.$base-spacing * 2;
+  margin: common.$base-spacing / 2;
+  width: 190px;
+}
+
+.topContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  @include typography.body-large;
+  text-align: center;
+}
+
+.climbStatus {
+  @include typography.body-medium;
+  margin: common.$base-spacing 0;
+  text-align: center;
+}
+
+.description {
+  margin: common.$base-spacing 0;
+}
+
+.green {
+  color: colors.$green;
+}
+
+.yellow {
+  color: colors.$yellow;
+}
+
+.red {
+  color: colors.$red;
+}

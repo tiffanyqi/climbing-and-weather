@@ -1,0 +1,19 @@
+@mixin heading() {
+  font-family: "Slabo 27px", serif;
+  font-size: 40px;
+}
+
+@mixin body-large() {
+  font-family: "Slabo 27px", serif;
+  font-size: 22px;
+}
+
+@mixin body-medium() {
+  font-family: "Slabo 27px", serif;
+  font-size: 18px;
+}
+
+@mixin body-small() {
+  font-family: "Slabo 27px", serif;
+  font-size: 16px;
+}
